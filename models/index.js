@@ -16,6 +16,6 @@ const urlSchema = new mongoose.Schema(
   { timestamps: true }
 );
 
-const URLModel = mongoose.model(config.dbName, urlSchema);
+const URLModel = mongoose.model(config.collectionName, urlSchema);
 
 module.exports = URLModel;
